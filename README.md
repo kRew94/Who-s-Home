@@ -41,6 +41,6 @@ Who's Home offers the following features:
 
 ##Screenshot
 
-[Imgur](http://i.imgur.com/bTCu9y1.png)
+[Screenshot1](http://i.imgur.com/bTCu9y1.png)
 
 ##License
