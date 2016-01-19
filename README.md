@@ -23,7 +23,9 @@ You need the following things installed on your Raspberry Pi
 
 To use Who's Home you need to download the .zip and extract the contents wherever you want. You can also clone the repo by typing
 
-'git clone https://github.com/krew94/whoshome.git'
+'''
+git clone https://github.com/krew94/whoshome.git
+'''
 
 
 ##Usage
