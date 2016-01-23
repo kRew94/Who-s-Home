@@ -6,7 +6,7 @@ from datetime import datetime
 import sqlite3
 
 def checkIfHome(ip):
-	output = subprocess.Popen(["sudo", "ping","-c", "1", ip],stdout = subprocess.PIPE,shell=False)
+	output = subprocess.Popen(["sudo", "arping","-c", "3", ip],stdout = subprocess.PIPE,shell=False)
 	check = output.communicate()[0]
 	check = output.returncode
 

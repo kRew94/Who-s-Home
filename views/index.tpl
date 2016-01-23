@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NMS - NCC-1701</title>
+    <title>Who's Home - {{ssid}}</title>
     <link rel="shortcut icon" type="image/png" href="/static/favicon.png">
 
     <!-- Bootstrap core CSS -->
@@ -39,12 +39,12 @@
                     <li role="presentation" class="active"><a href="/"><i class="fa fa-refresh"></i> Reload</a></li>
                 </ul>
             </nav>
-            <h3 class="text-muted"><i class="fa fa-wifi"></i> NMS</h3>
+            <h3 class="text-muted"><i class="fa fa-wifi"></i> Who's Home</h3>
         </div>
         <div class="jumbotron">
-            <h1><i class="fa fa-wifi"></i> Network Monitoring System</h1>
+            <h1><i class="fa fa-wifi"></i> Who's Home</h1>
             <hr/>
-            <p class="lead">Diese Seite dient zum monitoring der WLAN Geräte des Netzwerkes NCC-1701. Sie zeigt an, wann welches WLAN-Gerät ( <i class="fa fa-mobile"></i> ), mit dem Router (192.168.2.1) verbunden ist. Dies geschieht mithilfe des Ping Kommandos und der IP-Adresse des jeweiligen WLAN-Gerätes.</p>
+            <p class="lead">Diese Seite dient zum monitoring der WLAN Geräte des Netzwerkes {{ssid}}. Sie zeigt an, wann welches WLAN-Gerät ( <i class="fa fa-mobile"></i> ), mit dem Router (192.168.2.1) verbunden ist. Dies geschieht mithilfe des Ping Kommandos und der IP-Adresse des jeweiligen WLAN-Gerätes.</p>
         </div>
         % if clientOnline == 1:
         <div class="alert alert-success" role="alert">Es ist {{clientOnline}} Benutzer online</div>
@@ -65,6 +65,7 @@
                 <p id="stephanData">
                     <ul>
                         <li id="ip-address"><b>IP-Adresse: </b>{{ipStephan}}</li>
+                        <li><b>MAC-Adresse: </b>{{macStephan}}</li>
                         <li id="isOnline"><b>Zuhause: </b>{{homeStephan}}</li>
                         <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineStephan}}</li>
                     </ul>
@@ -184,7 +185,7 @@
         </div>
         <footer class="footer">
             &copy; 2016 <a href="http://www.krewarts.de/" target="_blank">KrewArts</a> under the terms of the <a href="/static/LICENSE.txt">MIT License</a>
-            <p class="pull-right"><i class="fa fa-code-fork"></i> Version 0.2</p>
+            <p class="pull-right"><a href="https://github.com/kRew94/Who-s-Home"><i class="fa fa-github"></i> Version 0.3</a></p>
         </footer>
 
     </div>
