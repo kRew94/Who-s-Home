@@ -1,4 +1,4 @@
-#![Who's Home](http://i.imgur.com/ShSDLwR.png)
+#![Who's Home](https://github.com/kRew94/Who-s-Home/blob/master/static/img/long_logo.png)
 
 Who's Home is a simple to install Webpage which displays who is at your house.
 
