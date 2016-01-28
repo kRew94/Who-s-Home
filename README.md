@@ -15,7 +15,7 @@ Who's Home is a simple to install Webpage which displays who is at your house.
 
 You need the following things installed on your Raspberry Pi
 
-- [Python 2.7.11](https://www.python.org/downloads/)
+- [Python 2.7.11 or above](https://www.python.org/downloads/)
 - [Bottle: Python Web Framework](http://bottlepy.org/docs/dev/index.html)
 - [SQLite3](https://www.sqlite.org/download.html)
 
