@@ -43,7 +43,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - Navigate to your local IP-Address (e.g. 192.168.0.100:8080)
 - Have fun!
 
-To add more clients you need to do the following:
+####To add more clients you need to do the following:
 - Navigate to the Who's Home folder
 - Use the command ```sqlite3 Client.db```
 - Now there should be a new view ```sqlite>  ```
