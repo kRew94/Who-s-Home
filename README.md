@@ -40,7 +40,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - Next you need to start the main\_script.py with the command ```python main_script.py &```
 - Finally you start the server with the following line of goodness ```python whosHome.py```
 - Now open up your favorite favorite Webbrowser (Chrome, Firefox, Safari, etc.)
-- Navigate to your local IP-Address (e.g. 192.168.0.100)
+- Navigate to your local IP-Address (e.g. 192.168.0.100:8080)
 - Have fun!
 
 To add more clients you need to do the following:
