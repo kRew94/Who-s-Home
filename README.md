@@ -30,8 +30,15 @@ git clone https://github.com/kRew94/Who-s-Home.git
 
 ##Usage
 
-- Go to the Unziped Folder and run the "start_server.sh"
-- Open up your favorite favorite Webbrowser (Chrome, Firefox, Safari, etc.)
+- Go to the Unziped Folder
+- First you need to create the DB, use the createDB.py with the following command ```python createDB.py```
+- Now you need to add clients to your database
+- Use the command ```sqlite3 Client.db```
+- Now there should be a new view ```sqlite>  ```
+- Now type ```INSERT INTO client VALUES (<id>, <name>, <ip-address>, <online>, <time>, <mac-address>);```
+- Next you need to start the main\_script.py with the command ```python main_script.py```
+- Finally you start the server with the following line of godness ```python whosHome.py```
+- Now open up your favorite favorite Webbrowser (Chrome, Firefox, Safari, etc.)
 - Navigate to your local IP-Address (e.g. 192.168.0.100)
 - Have fun!
 
