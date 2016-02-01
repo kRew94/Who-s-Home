@@ -39,10 +39,10 @@
                     <li role="presentation" class="active"><a href="/"><i class="fa fa-refresh"></i> Reload</a></li>
                 </ul>
             </nav>
-            <h3 class="text-muted"><i class="fa fa-wifi"></i> Who's Home</h3>
+            <h3 class="text-muted"><img src="static/img/logo.png" alt="Who's Home" style="width:5%; height:auto;opacity: 0.5;margin:0;padding:0"/></h3>
         </div>
         <div class="jumbotron">
-            <h1><i class="fa fa-wifi"></i> Who's Home</h1>
+            <h1><img src="static/img/long_logo.png" alt="Who's Home" style="width: 99%; height: auto;"/></h1>
             <hr/>
             <p class="lead">Diese Seite dient zum monitoring der WLAN Geräte des Netzwerkes {{ssid}}. Sie zeigt an, wann welches WLAN-Gerät ( <i class="fa fa-mobile"></i> ), mit dem Router (192.168.2.1) verbunden ist. Dies geschieht mithilfe des Ping Kommandos und der IP-Adresse des jeweiligen WLAN-Gerätes.</p>
         </div>
@@ -53,68 +53,30 @@
         % else:
         <div class="alert alert-danger" role="alert">Es ist kein Benutzer online</div>
         % end
+
+
         <div class="row">
-            <div class="col-sm-6">
-                <h4>Stephan Marschner
-                % if homeStephan == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="stephanData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipStephan}}</li>
-                        <li><b>MAC-Adresse: </b>{{macStephan}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeStephan}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineStephan}}</li>
-                    </ul>
-                </p>
+           <div class="col-sm-6">
+        <%
+        for client in allClient:
+        %   if countClient == 0:
 
-                <h4>Anita Marschner
-                % if homeAnita == "Ja":
+                <h4>{{client[1]}}
+                % if client[3] == "Ja":
                 <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
                 % else:
                 <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
                 % end
                 </h4>
-                <p id="anitaData">
+                <p>
                     <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipAnita}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeAnita}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineAnita}}</li>
+                        <li><b>IP-Adresse: </b>{{client[2]}}</li>
+                        <li><b>MAC-Adresse: </b>{{client[5]}}</li>
+                        <li><b>Zuhause: </b>{{client[3]}}</li>
+                        <li><b>Zuletzt Zuhause: </b>{{client[4]}}</li>
                     </ul>
                 </p>
-
-                <h4>Nicole Marschner
-                % if homeNicole == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="nicoleData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipNicole}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeNicole}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineNicole}}</li>
-                    </ul>
-                </p>
-
-                <h4>Bernd Marschner
-                % if homeBernd == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="berndData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipBernd}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeBernd}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineBernd}}</li>
-                    </ul>
-                </p>
+              % end
             </div>
             <div class="col-sm-6">
                 <h4>Tim Heubrock
