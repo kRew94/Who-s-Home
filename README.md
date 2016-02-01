@@ -60,7 +60,7 @@ Who's Home offers the following features:
 
 ##Screenshot
 
-![Screenshot1](http://i.imgur.com/bTCu9y1.png)
+![Overview](http://i.imgur.com/45QU3hT.png)
 
 ##License
 
