@@ -38,7 +38,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - Now type ```INSERT INTO client VALUES (<id(INTEGER)>, <name(STRING)>, <ip-address(STRING)>, <online(STRING)>, <time(STRING)>, <mac-address(STRING)>);``` e.g. ```INSERT INTO client VALUES (1, "Apple Seed", "192.168.0.2", "No", "07:35 AM - 01.02.2016", "00:14:22:01:23:45");```
 - After this you need to exit the sqlite shell with the ```.exit``` command
 - Next you need to start the main\_script.py with the command ```python main_script.py &```
-- Finally you start the server with the following line of goodness ```python whosHome.py```
+- Finally you start the server with the following line of goodness ```nohup python whosHome.py &```
 - Now open up your favorite favorite Webbrowser (Chrome, Firefox, Safari, etc.)
 - Navigate to your local IP-Address (e.g. 192.168.0.100:8080)
 - Have fun!
