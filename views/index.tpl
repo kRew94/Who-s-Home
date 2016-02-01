@@ -44,25 +44,22 @@
         <div class="jumbotron">
             <h1><img src="static/img/long_logo.png" alt="Who's Home" style="width: 99%; height: auto;"/></h1>
             <hr/>
-            <p class="lead">Diese Seite dient zum monitoring der WLAN Geräte des Netzwerkes {{ssid}}. Sie zeigt an, wann welches WLAN-Gerät ( <i class="fa fa-mobile"></i> ), mit dem Router (192.168.2.1) verbunden ist. Dies geschieht mithilfe des Ping Kommandos und der IP-Adresse des jeweiligen WLAN-Gerätes.</p>
+            <p class="lead">This Website monitors your Wifi devices in the network {{ssid}}. It show's which Wifi device ( <i class="fa fa-mobile"></i> ) is connected to your router. This works thanks to the ping command which pings the ip-addresses of your devices.</p>
         </div>
         % if clientOnline == 1:
-        <div class="alert alert-success" role="alert">Es ist {{clientOnline}} Benutzer online</div>
+        <div class="alert alert-success" role="alert">One person is home!</div>
         % elif clientOnline > 1:
-        <div class="alert alert-success" role="alert">Es sind {{clientOnline}} Benutzer online</div>
+        <div class="alert alert-success" role="alert">{{clientOnline}} people are home!</div>
         % else:
-        <div class="alert alert-danger" role="alert">Es ist kein Benutzer online</div>
+        <div class="alert alert-danger" role="alert">Nobody is home :(</div>
         % end
 
 
         <div class="row">
-           <div class="col-sm-6">
-        <%
-        for client in allClient:
-        %   if countClient == 0:
-
+           <div class="col-md-8 col-md-offset-4">
+        % for client in allClient:
                 <h4>{{client[1]}}
-                % if client[3] == "Ja":
+                % if client[3] == "Yes":
                 <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
                 % else:
                 <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
@@ -70,84 +67,23 @@
                 </h4>
                 <p>
                     <ul>
-                        <li><b>IP-Adresse: </b>{{client[2]}}</li>
-                        <li><b>MAC-Adresse: </b>{{client[5]}}</li>
-                        <li><b>Zuhause: </b>{{client[3]}}</li>
-                        <li><b>Zuletzt Zuhause: </b>{{client[4]}}</li>
+                        <li><b>IP-address: </b>{{client[2]}}</li>
+                        <li><b>MAC-address: </b>{{client[5]}}</li>
+                        <li><b>Home: </b>{{client[3]}}</li>
+                        <li><b>Last Home: </b>{{client[4]}}</li>
                     </ul>
                 </p>
-              % end
-            </div>
-            <div class="col-sm-6">
-                <h4>Tim Heubrock
-                % if homeTim == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="stephanData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipTim}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeTim}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineTim}}</li>
-                    </ul>
-                </p>
-
-                <h4>Felina Möllmann
-                % if homeFelina == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="stephanData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipFelina}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeFelina}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineFelina}}</li>
-                    </ul>
-                </p>
-
-                <h4>René Marschner
-                % if homeRene == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="stephanData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipRene}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeRene}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineRene}}</li>
-                    </ul>
-                </p>
-
-                <h4>Nadine Wenger
-                % if homeNadine == "Ja":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
-                % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
-                % end
-                </h4>
-                <p id="stephanData">
-                    <ul>
-                        <li id="ip-address"><b>IP-Adresse: </b>{{ipNadine}}</li>
-                        <li id="isOnline"><b>Zuhause: </b>{{homeNadine}}</li>
-                        <li id="lastOnline"><b>Zuletzt Zuhause: </b>{{onlineNadine}}</li>
-                    </ul>
-                </p>
+        % end
             </div>
         </div>
         <div class="container">
             <br/>
-            <p>Letzte Aktualisierung der Daten: {{lastReload}}</p>
-            <p>Drücke "Reload" um die Daten zu aktualisieren!</p>
+            <p>Recent update: {{lastReload}}</p>
+            <p>Press "Reload" to update the data!</p>
         </div>
         <footer class="footer">
             &copy; 2016 <a href="http://www.krewarts.de/" target="_blank">KrewArts</a> under the terms of the <a href="/static/LICENSE.txt">MIT License</a>
-            <p class="pull-right"><a href="https://github.com/kRew94/Who-s-Home"><i class="fa fa-github"></i> Version 0.3</a></p>
+            <p class="pull-right"><a href="https://github.com/kRew94/Who-s-Home"><i class="fa fa-github"></i> Version 0.4</a></p>
         </footer>
 
     </div>

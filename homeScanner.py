@@ -21,12 +21,12 @@ def index():
     con = sqlite3.connect('Client.db')
     cur = con.cursor()
 
-    clientOnline = len(cur.execute('SELECT * FROM client WHERE online = "Ja"').fetchall())
+    clientOnline = len(cur.execute('SELECT * FROM client WHERE online = "Yes"').fetchall())
     allClient = cur.execute('SELECT * FROM client').fetchall()
 
     try:
         ssid = subprocess.Popen(["sudo", "iwgetid", "-r"], stdout = subprocess.PIPE).communicate()[0].rstrip()
-        return template('index.tpl',ssid = ssid, clientOnline = clientOnline, allClient ,lastReload = datetime.now().strftime("%H:%M - %d.%m.%Y"))
+        return template('index.tpl',ssid = ssid, clientOnline = clientOnline, allClient = allClient ,lastReload = datetime.now().strftime("%I:%M %p - %d.%m.%Y"))
     except ValueError:
         return template('<p>Please reload the page!</p>')
 
