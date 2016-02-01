@@ -35,18 +35,28 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - Now you need to add clients to your database
 - Use the command ```sqlite3 Client.db```
 - Now there should be a new view ```sqlite>  ```
-- Now type ```INSERT INTO client VALUES (<id>, <name>, <ip-address>, <online>, <time>, <mac-address>);```
-- Next you need to start the main\_script.py with the command ```python main_script.py```
-- Finally you start the server with the following line of godness ```python whosHome.py```
+- Now type ```INSERT INTO client VALUES (<id(INTEGER)>, <name(STRING)>, <ip-address(STRING)>, <online(STRING)>, <time(STRING)>, <mac-address(STRING)>);``` e.g. ```INSERT INTO client VALUES (1, "Apple Seed", "192.168.0.2", "No", "07:35 AM - 01.02.2016", "00:14:22:01:23:45");```
+- After this you need to exit the sqlite shell with the ```.exit``` command
+- Next you need to start the main\_script.py with the command ```python main_script.py &```
+- Finally you start the server with the following line of goodness ```python whosHome.py```
 - Now open up your favorite favorite Webbrowser (Chrome, Firefox, Safari, etc.)
 - Navigate to your local IP-Address (e.g. 192.168.0.100)
 - Have fun!
+
+To add more clients you need to do the following:
+- Navigate to the Who's Home folder
+- Use the command ```sqlite3 Client.db```
+- Now there should be a new view ```sqlite>  ```
+- Now type ```INSERT INTO client VALUES (<id(INTEGER)>, <name(STRING)>, <ip-address(STRING)>, <online(STRING)>, <time(STRING)>, <mac-address(STRING)>);``` e.g. ```INSERT INTO client VALUES (1, "Apple Seed", "192.168.0.2", "No", "07:35 AM - 01.02.2016", "00:14:22:01:23:45");```
+- After this you need to exit the sqlite shell with the ```.exit``` command
+- No need to restart the whosHome.py or main_script.py!
 
 ##Features
 
 Who's Home offers the following features:
 * Nice and clean UI
 * Uses SQLite3 for data storing
+* Dynamic website to show your clients
 
 ##Screenshot
 
