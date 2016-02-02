@@ -30,26 +30,19 @@ git clone https://github.com/kRew94/Who-s-Home.git
 
 ##Usage
 
-- Go to the Unziped Folder
+- Go to the unziped folder
 - First you need to create the DB, use the createDB.py with the following command ```python createDB.py```
 - Now you need to add clients to your database
-- Use the command ```sqlite3 Client.db```
-- Now there should be a new view ```sqlite>  ```
-- Now type ```INSERT INTO client VALUES (<id(INTEGER)>, <name(STRING)>, <ip-address(STRING)>, <online(STRING)>, <time(STRING)>, <mac-address(STRING)>);``` e.g. ```INSERT INTO client VALUES (1, "Apple Seed", "192.168.0.2", "No", "07:35 AM - 01.02.2016", "00:14:22:01:23:45");```
-- After this you need to exit the sqlite shell with the ```.exit``` command
-- Next you need to start the main\_script.py with the command ```python main_script.py &```
-- Finally you start the server with the following line of goodness ```nohup python whosHome.py &```
-- Now open up your favorite favorite Webbrowser (Chrome, Firefox, Safari, etc.)
-- Navigate to your local IP-Address (e.g. 192.168.0.100:8080)
+- To do this you need to run the following command ```pyhton addClient.py```
+- Finally you can start Who's Home with the following command ```sh start.sh```
+- Now open up your favorite favorite browser (Chrome, Firefox, Safari, etc.)
+- Navigate to your local IP-Address (default is set to 0.0.0.0:8080)
 - Have fun!
 
 ####To add more clients you need to do the following:
 - Navigate to the Who's Home folder
-- Use the command ```sqlite3 Client.db```
-- Now there should be a new view ```sqlite>  ```
-- Now type ```INSERT INTO client VALUES (<id(INTEGER)>, <name(STRING)>, <ip-address(STRING)>, <online(STRING)>, <time(STRING)>, <mac-address(STRING)>);``` e.g. ```INSERT INTO client VALUES (1, "Apple Seed", "192.168.0.2", "No", "07:35 AM - 01.02.2016", "00:14:22:01:23:45");```
-- After this you need to exit the sqlite shell with the ```.exit``` command
-- No need to restart the whosHome.py or main_script.py!
+- Run the following command ```pyhton addClient.py```
+- That's it! You can add as many clients as you please
 
 ##Features
 
