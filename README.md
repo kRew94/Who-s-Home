@@ -54,7 +54,7 @@ Who's Home offers the following features:
 ##Screenshot
 
 <a href="http://i.imgur.com/45QU3hT.png"><img src="http://i.imgur.com/45QU3hT.png" align="left" height="512"></a>
-
+<br>
 ##License
 
 The MIT License (MIT)
