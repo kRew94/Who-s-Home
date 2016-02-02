@@ -1,6 +1,6 @@
 #![Who's Home](https://github.com/kRew94/Who-s-Home/blob/master/static/img/long_logo.png)
 
-Who's Home is a simple to install Webpage which displays who is at your house.
+Who's Home is a simple to install webpage which displays who is at your house.
 
 1. [Requierments](#requirements)
 2. [Installation](#installation)
