@@ -34,7 +34,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - Go to the unziped folder
 - First you need to create the DB, use the createDB.py with the following command ```python createDB.py```
 - Now you need to add clients to your database
-- To do this you need to run the following command ```pyhton addClient.py```
+- To do this you need to run the following command ```python addClient.py```
 - Finally you can start Who's Home with the following command ```sh start.sh```
 - Now open up your favorite favorite browser (Chrome, Firefox, Safari, etc.)
 - Navigate to your local IP-Address (default is set to 0.0.0.0:8080)
@@ -42,7 +42,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 
 ####To add more clients you need to do the following:
 - Navigate to the Who's Home folder
-- Run the following command ```pyhton addClient.py```
+- Run the following command ```python addClient.py```
 - That's it! You can add as many clients as you please
 
 ##Features
