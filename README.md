@@ -18,6 +18,7 @@ You need the following things installed on your Raspberry Pi
 - [Python 2.7.11](https://www.python.org/downloads/)
 - [Bottle: Python Web Framework](http://bottlepy.org/docs/dev/index.html)
 - [SQLite3](https://www.sqlite.org/download.html)
+- Arping - Install it with ```sudo apt-get install arping```
 
 ##Installation
 
