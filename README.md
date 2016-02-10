@@ -2,14 +2,14 @@
 
 Who's Home is a simple to install webpage which displays who is at your house.
 
-1. [Requierments](#requirements)
+1. [Requirements](#requirements)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Features](#features)
 5. [Screenshot](#screenshot)
 5. [License](#license)
 
-## Requierments
+## Requirements
 
 **Tested on a Raspberry Pi 2 with Raspbian Jessie**
 
