@@ -28,6 +28,8 @@ To use Who's Home you need to download the .zip and extract the contents whereve
 git clone https://github.com/kRew94/Who-s-Home.git
 ```
 
+**⚠️ BEWARE IF YOU USE A RASPBERRY PI 3! YOU NEED TO DEACTIVATE THE POWER MANAGEMENT OF THE WIFI CHIP AS SEEN [HERE](https://www.raspberrypi.org/forums/viewtopic.php?t=46569&p=647343) ⚠️**
+
 
 ##Usage
 
