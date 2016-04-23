@@ -56,4 +56,4 @@ try:
         time.sleep(sleepTime)
 
 except KeyboardInterrupt:
-    print "Fertig"
+    print "Done!"
