@@ -1,0 +1,1650 @@
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [23/Apr/2016 19:30:42] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:30:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121261
+127.0.0.1 - - [23/Apr/2016 19:30:42] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 1709
+127.0.0.1 - - [23/Apr/2016 19:30:42] "GET /static/img/logo.png HTTP/1.1" 200 41614
+127.0.0.1 - - [23/Apr/2016 19:30:42] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+127.0.0.1 - - [23/Apr/2016 19:30:49] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:30:57] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:30:57] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:30:57] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:30:57] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:30:57] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:30:57] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:31:01] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:02] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:02] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:03] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:03] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:16] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:16] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:16] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:16] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:16] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:31:18] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:18] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:18] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:18] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:18] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:19] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:31:20] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:31:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:20] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:20] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:20] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:31:20] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:33:56] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:33:56] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:56] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:56] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:56] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:56] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:33:58] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:33:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:58] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:58] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:58] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:58] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:33:59] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:33:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:59] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:59] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:59] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:33:59] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:00] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:01] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:02] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:03] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:03] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:03] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:03] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:04] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:10] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:10] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:10] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:10] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:10] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:10] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:11] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:12] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:12] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:12] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:12] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:12] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:13] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:13] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:13] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:13] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:13] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:15] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:15] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:15] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:15] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:15] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:16] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:16] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:16] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:16] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:16] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:16] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:21] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:21] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:21] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:21] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:22] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:23] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:23] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:23] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:23] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:24] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:25] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:26] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:27] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/favicon.png HTTP/1.1" 200 27815
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:28] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:29] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:30] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:31] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:32] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:33] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:33] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:33] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:33] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:33] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:34] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/favicon.png HTTP/1.1" 200 27815
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET / HTTP/1.1" 200 3134
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:35] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:36] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:47] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:34:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:47] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:47] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:34:47] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:34:52] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+127.0.0.1 - - [23/Apr/2016 19:35:12] "GET / HTTP/1.1" 200 3133
+127.0.0.1 - - [23/Apr/2016 19:35:12] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:35:12] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:35:13] "GET /static/img/logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:35:13] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+127.0.0.1 - - [23/Apr/2016 19:35:13] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
+Bottle v0.12.9 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 3113, in run
+    server.run(app)
+  File "/usr/local/lib/python2.7/dist-packages/bottle.py", line 2771, in run
+    srv = make_server(self.host, self.port, app, server_cls, handler_cls)
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 151, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 48, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 98] Address already in use
