@@ -20,7 +20,7 @@ You need the following things installed on your Raspberry Pi
 - [SQLite3](https://www.sqlite.org/download.html)
 - Arping - Install it with ```sudo apt-get install arping```
 
-##Installation
+## Installation
 
 To use Who's Home you need to download the .zip and extract the contents wherever you want. You can also clone the repo by typing
 
@@ -31,7 +31,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 **⚠️ BEWARE IF YOU USE A RASPBERRY PI 3! YOU NEED TO DEACTIVATE THE POWER MANAGEMENT OF THE WIFI CHIP AS SEEN [HERE](https://www.raspberrypi.org/forums/viewtopic.php?t=46569&p=647343) ⚠️**
 
 
-##Usage
+## Usage
 
 - Go to the unziped folder
 - First you need to create the DB, use the createDB.py with the following command ```python createDB.py```
@@ -42,23 +42,23 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - Navigate to your local IP-Address (default is set to 0.0.0.0:8080)
 - Have fun!
 
-####To add more clients you need to do the following:
+#### To add more clients you need to do the following:
 - Navigate to the Who's Home folder
 - Run the following command ```python addClient.py```
 - That's it! You can add as many clients as you please
 
-##Features
+## Features
 
 Who's Home offers the following features:
 * Nice and clean UI
 * Uses SQLite3 for data storing
 * Dynamic website to show your clients
 
-##Screenshot
+## Screenshot
 
 <img src="http://i.imgur.com/45QU3hT.png" alt="Overview" width="512">
 
-##License
+## License
 
 The MIT License (MIT)
 
