@@ -11,7 +11,9 @@ Who's Home is a simple to install webpage which displays who is at your house.
 
 ## Requierments
 
-**Tested on a Raspberry Pi 2 with Raspbian Jessie**
+**Currently tests are running on the Raspberry Pi 3 B+!**
+
+**Tested on a Raspberry Pi 2/3 with Raspbian Jessie**
 
 You need the following things installed on your Raspberry Pi
 
