@@ -11,9 +11,7 @@ Who's Home is a simple to install webpage which displays who is at your house.
 
 ## Requierments
 
-**Currently tests are running on the Raspberry Pi 3 B+!**
-
-**Tested on a Raspberry Pi 2/3 with Raspbian Jessie**
+**Tested on a Raspberry Pi 2/3/3B+ with Raspbian Jessie**
 
 You need the following things installed on your Raspberry Pi
 
@@ -41,7 +39,7 @@ git clone https://github.com/kRew94/Who-s-Home.git
 - To do this you need to run the following command ```python addClient.py```
 - Finally you can start Who's Home with the following command ```sh start.sh```
 - Now open up your favorite favorite browser (Chrome, Firefox, Safari, etc.)
-- Navigate to your local IP-Address (default is set to 0.0.0.0:8080)
+- Navigate to your local IP-Address (default is set to ip_of_raspberry_pi:8080)
 - Have fun!
 
 #### To add more clients you need to do the following:
