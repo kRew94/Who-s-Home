@@ -82,7 +82,7 @@
       <p>Press "Reload" to update the data!</p>
     </div>
     <footer class="footer">
-      &copy; 2016 <a href="http://www.krewarts.de/" target="_blank">KrewArts</a> under the terms of the <a href="/static/LICENSE.txt">MIT License</a>
+      &copy; 2018 <a href="http://www.krewarts.de/" target="_blank">KrewArts</a> under the terms of the <a href="/static/LICENSE.txt">MIT License</a>
       <p class="pull-right"><a href="https://github.com/kRew94/Who-s-Home"><i class="fa fa-github"></i> Version 0.4.1</a></p>
     </footer>
 
