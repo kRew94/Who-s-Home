@@ -57,15 +57,15 @@ Who's Home offers the following features:
 
 ## Screenshot
 
-<figure>
-    <img src="http://i.imgur.com/45QU3hT.png" alt="Overview" width="512">
-    <figcaption>Light Mode</figcaption>
-</figure>
 
-<figure>
-    <img src="https://i.imgur.com/9GkLR6q.jpg" alt="Overview" width="512">
-    <figcaption>Dark Mode</figcaption>
-</figure>
+#### Light Mode
+<img src="http://i.imgur.com/45QU3hT.png" alt="Overview" width="512">
+<br\>
+
+#### Dark Mode
+<img src="https://i.imgur.com/9GkLR6q.jpg" alt="Overview" width="512">
+
+
 
 ## License
 
