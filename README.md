@@ -57,12 +57,16 @@ Who's Home offers the following features:
 
 ## Screenshot
 
+<figure>
+    <img src="http://i.imgur.com/45QU3hT.png" alt="Overview" width="512">
+    <figcaption>Light Mode</figcaption>
+</figure>
 
-<img src="http://i.imgur.com/45QU3hT.png" alt="Overview" width="512">
-<em>Light Mode</em>
+<figure>
+    <img src="https://i.imgur.com/9GkLR6q.jpg" alt="Overview" width="512">
+    <figcaption>Dark Mode</figcaption>
+</figure>
 
-<img src="https://i.imgur.com/9GkLR6q.jpg" alt="Overview" width="512">
-<em>Dark Mode</em>
 ## License
 
 The MIT License (MIT)
