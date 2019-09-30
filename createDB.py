@@ -7,7 +7,7 @@
 import sqlite3
 
 conn = sqlite3.connect('Client.db')
-print "Opened database successfully"
+print("Opened database successfully")
 
 conn.execute('''CREATE TABLE IF NOT EXISTS client
        (id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -16,6 +16,6 @@ conn.execute('''CREATE TABLE IF NOT EXISTS client
        online TEXT,
        time TEXT,
        mac TEXT);''')
-print "Table created successfully"
+print("Table created successfully")
 
 conn.close()

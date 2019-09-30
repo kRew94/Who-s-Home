@@ -15,7 +15,7 @@ Who's Home is a simple to install webpage which displays who is at your house.
 
 You need the following things installed on your Raspberry Pi
 
-- [Python 2.7.11](https://www.python.org/downloads/)
+- [Python 3.x](https://www.python.org/downloads/)
 - [Bottle: Python Web Framework](http://bottlepy.org/docs/dev/index.html)
 - [SQLite3](https://www.sqlite.org/download.html)
 - Arping - Install it with ```sudo apt-get install arping```
@@ -62,7 +62,7 @@ Who's Home offers the following features:
 
 The MIT License (MIT)
 
-Copyright (c) 2016 [Stephan Marschner](http://krewarts.de/)
+Copyright (c) 2019 [Stephan Marschner](http://krewarts.de/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

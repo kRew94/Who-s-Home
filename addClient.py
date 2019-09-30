@@ -8,9 +8,9 @@ import sqlite3
 
 print("Please fill the following entries")
 
-name = raw_input("Name: ")
-ip = raw_input("IP-address: ")
-mac = raw_input("MAC-address: ")
+name = input("Name: ")
+ip = input("IP-address: ")
+mac = input("MAC-address: ")
 
 conn = sqlite3.connect('Client.db')
 cur = conn.cursor()
