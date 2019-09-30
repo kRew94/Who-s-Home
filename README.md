@@ -30,7 +30,7 @@ You need the following things installed on your Raspberry Pi
     * Python 3.x should already be installed (otherwise ```sudo apt-get install python3```)
     * Bottle ```sudo apt-get install python-bottle```
     * SQLite3 ```sudo apt-get install sqlite3```
-    * Arping ```sudo apt-get install apring```
+    * Arping ```sudo apt-get install arping```
     * Git ```sudo apt-get install git```
 - After everything is setup you should be ready to install Who's Home
 - Get Who's Home by typing the following ```git clone https://github.com/kRew94/Who-s-Home.git```
