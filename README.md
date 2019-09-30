@@ -3,48 +3,49 @@
 Who's Home is a simple to install webpage which displays who is at your house.
 
 1. [Requierments](#requirements)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Features](#features)
-5. [Screenshot](#screenshot)
+2. [Installation/Usage](#installation/usage)
+3. [Features](#features)
+4. [Screenshot](#screenshot)
 5. [License](#license)
 
 ## Requierments
 
-**Tested on a Raspberry Pi 2/3/3B+ with Raspbian Jessie**
+**Tested on a Raspberry Pi 2/3 with Raspbian Jessie and on a Raspberry Pi 3b+ with Raspian Buster**
 
 You need the following things installed on your Raspberry Pi
 
 - [Python 3.x](https://www.python.org/downloads/)
 - [Bottle: Python Web Framework](http://bottlepy.org/docs/dev/index.html)
 - [SQLite3](https://www.sqlite.org/download.html)
-- Arping - Install it with ```sudo apt-get install arping```
+- [Arping](https://packages.debian.org/en/stretch/arping)
+- [Git](https://git-scm.com/download/linux)
 
-## Installation
-
-To use Who's Home you need to download the .zip and extract the contents wherever you want. You can also clone the repo by typing
-
-```
-git clone https://github.com/kRew94/Who-s-Home.git
-```
+## Installation/Usage
 
 **⚠️ BEWARE IF YOU USE A RASPBERRY PI 3! YOU NEED TO DEACTIVATE THE POWER MANAGEMENT OF THE WIFI CHIP AS SEEN [HERE](https://www.raspberrypi.org/forums/viewtopic.php?t=46569&p=647343) ⚠️**
 
-
-## Usage
-
+- Use a fresh install of Raspian from [here](https://www.raspberrypi.org/downloads/raspbian/)
+- After booting your machine up for the first time, make sure to connect to your main WiFi-network or connect the Raspberry Pi via LAN to your network. For further instructions you can have a look up [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
+- Next make sure you install all the requierted packages listed above.
+    * Python 3.x should already be installed (otherwise ```sudo apt-get install python3```)
+    * Bottle ```sudo apt-get install python-bottle```
+    * SQLite3 ```sudo apt-get install sqlite3```
+    * Arping ```sudo apt-get install sqlite3```
+    * Git ```sudo apt-get install git```
+- After everything is setup you should be ready to install Who's Home
+- Get Who's Home by typing the following ```git clone https://github.com/kRew94/Who-s-Home.git```
 - Go to the unziped folder
-- First you need to create the DB, use the createDB.py with the following command ```python createDB.py```
+- First you need to create the DB, use the createDB.py with the following command ```python3 createDB.py```
 - Now you need to add clients to your database
-- To do this you need to run the following command ```python addClient.py```
+- To do this you need to run the following command ```python3 addClient.py```
 - Finally you can start Who's Home with the following command ```sh start.sh```
-- Now open up your favorite favorite browser (Chrome, Firefox, Safari, etc.)
-- Navigate to your local IP-Address (default is set to ip_of_raspberry_pi:8080)
+- Now open up your favorite favorite browser (Chrome, Firefox, Safari, etc.) on another host in your network
+- Navigate to your local IP-address (default is set to <ip_of_raspberry_pi>:8080)
 - Have fun!
 
 #### To add more clients you need to do the following:
 - Navigate to the Who's Home folder
-- Run the following command ```python addClient.py```
+- Run the following command ```python3 addClient.py```
 - That's it! You can add as many clients as you please
 
 ## Features
