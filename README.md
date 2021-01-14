@@ -2,11 +2,17 @@
 
 Who's Home is a simple to install webpage which displays who is at your house.
 
-1. [Requierments](#requirements)
-2. [Installation/Usage](#installation/usage)
-3. [Features](#features)
-4. [Screenshot](#screenshot)
-5. [License](#license)
+1. [Roadmap](#roadmap)
+2. [Requierments](#requirements)
+3. [Installation/Usage](#installation/usage)
+4. [Features](#features)
+5. [Screenshot](#screenshot)
+6. [License](#license)
+
+## Roadmap
+
+1. Update the binaries to work with the latest software/hardware combinations
+2. Create docker version
 
 ## Requierments
 
@@ -71,7 +77,7 @@ Who's Home offers the following features:
 
 The MIT License (MIT)
 
-Copyright (c) 2019 [Stephan Marschner](http://krewarts.de/)
+Copyright (c) 2021 [Stephan Marschner](https://marschner.dev/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
