@@ -30,7 +30,7 @@ You need the following things installed on your Raspberry Pi
 
 **⚠️ BEWARE IF YOU USE A RASPBERRY PI 3! YOU NEED TO DEACTIVATE THE POWER MANAGEMENT OF THE WIFI CHIP AS SEEN [HERE](https://www.raspberrypi.org/forums/viewtopic.php?t=46569&p=647343) ⚠️**
 
-- Use a fresh install of Raspian from [here](https://www.raspberrypi.org/downloads/raspbian/)
+- Use a fresh install of Raspberry Pi OS (I recommend Raspberry Pi OS Lite) from [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
 - After booting your machine up for the first time, make sure to connect to your main WiFi-network or connect the Raspberry Pi via LAN to your network. For further instructions you can have a look up [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 - Next make sure you install all the requierted packages listed above.
     * Python 3.x should already be installed (otherwise ```sudo apt-get install python3```)
