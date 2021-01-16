@@ -33,11 +33,11 @@ You need the following things installed on your Raspberry Pi
 - Use a fresh install of Raspberry Pi OS (I recommend Raspberry Pi OS Lite) from [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
 - After booting your machine up for the first time, make sure to connect to your main WiFi-network or connect the Raspberry Pi via LAN to your network. For further instructions you can have a look up [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 - Next make sure you install all the requierted packages listed above.
-    * Python 3.x should already be installed (otherwise ```sudo apt-get install python3```)
-    * Bottle ```sudo apt-get install python-bottle```
-    * SQLite3 ```sudo apt-get install sqlite3```
-    * Arping ```sudo apt-get install arping```
-    * Git ```sudo apt-get install git```
+    * Python 3.x should already be installed (otherwise ```sudo apt install python3```)
+    * Bottle ```sudo apt install python-bottle```
+    * SQLite3 ```sudo apt install sqlite3```
+    * Arping ```sudo apt install arping```
+    * Git ```sudo apt install git```
 - After everything is setup you should be ready to install Who's Home
 - Get Who's Home by typing the following ```git clone https://github.com/kRew94/Who-s-Home.git```
 - Go to the unziped folder
