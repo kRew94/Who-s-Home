@@ -21,6 +21,9 @@
   <!-- Font Awesome Implement -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+  <!-- Bootstrap javascript -->
+  <script src="/static/js/bootstrap.min.js"></script>
+
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,12 +39,13 @@
     <div class="header clearfix">
       <nav>
         <ul class="nav nav-pills pull-right">
-          <li role="presentation" class="active"><a href="/"><i class="fa fa-refresh"></i> Reload</a></li>
+          <li class="nav-item" data-bs-toggle="modal" data-bs-target="#newuser"><a href="#newuser" class="nav-link" data-bs-toggle="modal" data-bs-target="#newuser">Add User</a></li>
+          <li class="nav-item"><a href="/" class="nav-link active"><i class="fa fa-refresh"></i></a></li>
         </ul>
       </nav>
       <h3 class="text-muted"><img src="static/img/logo.png" alt="Who's Home" style="width:5%; height:auto;opacity: 0.5;margin:0;padding:0"/></h3>
     </div>
-    <div class="jumbotron">
+    <div class="bg-light p-5 rounded jumbotron">
       <h1><img src="static/img/long_logo.png" alt="Who's Home" style="width: 99%; height: auto;"/></h1>
       <hr/>
       <p class="lead">This Website monitors your Wifi devices in the network {{ssid}}. It show's which Wifi device ( <i class="fa fa-mobile"></i> ) is connected to your router. This works thanks to the ping command which pings the ip-addresses of your devices.</p>
@@ -56,25 +60,28 @@
 
 
     <div class="row">
-      <div class="col-md-8 col-md-offset-4">
         % for client in allClient:
-        <h4>{{client[1]}}
+        <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">{{client[1]}}
                 % if client[3] == "Yes":
-                <span class="label label-success">Online <i class="fa fa-arrow-up online"></i></span>
+                <span class="badge bg-success rounded-pill label">Online <i class="fa fa-arrow-up"></i></span>
                 % else:
-                <span class="label label-danger">Offline <i class="fa fa-arrow-down offline"></i></span>
+                <span class="badge bg-danger rounded-pill label">Offline <i class="fa fa-arrow-down"></i></span>
                 % end
-                </h4>
-        <p>
-          <ul>
-            <li><b>IP-address: </b>{{client[2]}}</li>
-            <li><b>MAC-address: </b>{{client[5]}}</li>
-            <li><b>Home: </b>{{client[3]}}</li>
-            <li><b>Last Home: </b>{{client[4]}}</li>
+                <button type="button" class="btn-close pull-right" aria-label="Close" data-bs-toggle="modal" data-bs-target="#deleteuser"></button>
+            </h4>
+          <ul class="list-group">
+            <li class="list-group-item"><b>IP-address: </b><span class="badge bg-primary rounded-pill pull-right">{{client[2]}}</span></li>
+            <li class="list-group-item"><b>MAC-address: </b><span class="badge bg-primary rounded-pill pull-right">{{client[5]}}</span></li>
+            <li class="list-group-item"><b>Home: </b><span class="badge bg-primary rounded-pill pull-right">{{client[3]}}</span></li>
+            <li class="list-group-item"><b>Last Home: </b><span class="badge bg-primary rounded-pill pull-right">{{client[4]}}</span></li>
           </ul>
-        </p>
+          </div>
+        </div>
+        </div>
         % end
-      </div>
     </div>
     <div class="container">
       <br/>
@@ -82,11 +89,63 @@
       <p>Press "Reload" to update the data!</p>
     </div>
     <footer class="footer">
-      &copy; 2019 Stephan Marschner under the terms of the <a href="/static/LICENSE.txt">MIT License</a>
-      <p class="pull-right"><a href="https://github.com/kRew94/Who-s-Home"><i class="fa fa-github"></i> Version 0.4.1</a></p>
+      &copy; 2021 Stephan Marschner under the terms of the <a href="/static/LICENSE.txt">MIT License</a>
+      <p class="pull-right"><a href="https://github.com/kRew94/Who-s-Home"><i class="fa fa-github"></i> Version 1.0</a></p>
     </footer>
-
   </div>
+
+  <!-- MODAL FOR NEW USER -->
+  <div class="modal fade" id="newuser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add User</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+              <label for="newName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="newName" placeholder="Max Mustermann" required>
+              <div class="invalid-feedback">
+                Please enter a name.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="newIP" class="form-label">IP-adress</label>
+              <input type="text" class="form-control" id="newIP" placeholder="192.168.0.100" required>
+            </div>
+            <div class="mb-3">
+              <label for="newMAC" class="form-label">MAC-adress</label>
+              <input type="text" class="form-control" id="newMAC" placeholder="00:0a:95:9d:68:16">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Add</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for deleting user -->
+  <div class="modal fade" id="deleteuser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Delete user</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to delete this user?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>

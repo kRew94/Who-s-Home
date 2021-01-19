@@ -60,6 +60,7 @@ body {
 .jumbotron {
     text-align: center;
     border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 1rem;
 }
 
 .jumbotron .btn {
@@ -96,6 +97,15 @@ body {
     font-weight: 800;
 }
 
+.card{
+    margin-bottom: 1rem;
+}
+
+.btn-close{
+    width: 1px;
+    height: 1px;
+}
+
 /* Responsive: Portrait tablets and up */
 
 @media screen and (min-width: 768px) {
@@ -124,8 +134,9 @@ body {
         color: #fff;
     }
 
-    .jumbotron{
+    .bg-light{
         background-color: #7d7d7d; 
+        color: #333;
     }
 
     .footer{
@@ -138,5 +149,19 @@ body {
 
     a:hover{
         color: #777;
+    }
+
+    .card{
+        color: #fff;
+        background-color:dimgrey;
+    }
+
+    .list-group-item{
+        background-color: #333;
+        color: #fff;
+    }
+
+    .modal-content{
+        color: #333;
     }
 }

@@ -1,0 +1,665 @@
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 13:43:25] "GET / HTTP/1.1" 200 3447
+192.168.178.121 - - [16/Jan/2021 13:44:45] "GET / HTTP/1.1" 200 2673
+192.168.178.121 - - [16/Jan/2021 13:44:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121261
+192.168.178.121 - - [16/Jan/2021 13:44:45] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 13:44:45] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 13:44:45] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [16/Jan/2021 13:45:15] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 13:46:32] "GET / HTTP/1.1" 200 3054
+192.168.178.121 - - [16/Jan/2021 13:46:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 121261
+192.168.178.121 - - [16/Jan/2021 13:46:32] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 13:46:32] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 13:46:32] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [16/Jan/2021 13:46:33] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [16/Jan/2021 13:46:43] "GET / HTTP/1.1" 200 3054
+192.168.178.121 - - [16/Jan/2021 13:46:48] "GET / HTTP/1.1" 200 3054
+192.168.178.121 - - [16/Jan/2021 13:47:05] "GET / HTTP/1.1" 200 3054
+192.168.178.121 - - [16/Jan/2021 13:47:09] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 13:50:03] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 13:50:03] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 13:50:03] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 13:50:03] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 13:50:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 14:01:47] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 14:01:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 14:01:47] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 14:01:47] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 14:01:47] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:26:39] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:26:39] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:26:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:26:39] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:26:39] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:32:57] "GET / HTTP/1.1" 200 3072
+192.168.178.121 - - [16/Jan/2021 15:32:58] "GET / HTTP/1.1" 200 3072
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 15:34:39] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:34:40] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:00] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [16/Jan/2021 15:37:00] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 15:37:00] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 15:37:00] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [16/Jan/2021 15:37:02] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:03] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:03] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:09] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:09] "GET /static/favicon.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:37:10] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:10] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:10] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:11] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:37:11] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:42:27] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:42:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:42:28] "GET / HTTP/1.1" 200 3073
+192.168.178.121 - - [16/Jan/2021 15:42:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [16/Jan/2021 15:42:28] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 15:42:28] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 15:42:28] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 15:44:38] "GET / HTTP/1.1" 200 3091
+192.168.178.121 - - [16/Jan/2021 15:44:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:44:40] "GET / HTTP/1.1" 200 3091
+192.168.178.121 - - [16/Jan/2021 15:44:43] "GET / HTTP/1.1" 200 3091
+192.168.178.121 - - [16/Jan/2021 15:44:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [16/Jan/2021 15:44:44] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 15:44:44] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 15:44:44] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [16/Jan/2021 15:45:25] "GET / HTTP/1.1" 200 3091
+192.168.178.121 - - [16/Jan/2021 15:45:30] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 15:47:55] "GET / HTTP/1.1" 200 3089
+192.168.178.121 - - [16/Jan/2021 15:47:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:47:55] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [16/Jan/2021 15:49:27] "GET / HTTP/1.1" 200 3089
+192.168.178.121 - - [16/Jan/2021 15:49:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:49:27] "GET /static/favicon.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:49:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:49:30] "GET / HTTP/1.1" 200 3089
+192.168.178.121 - - [16/Jan/2021 15:49:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [16/Jan/2021 15:49:30] "GET /static/favicon.png HTTP/1.1" 200 27815
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 15:52:09] "GET / HTTP/1.1" 200 3115
+192.168.178.121 - - [16/Jan/2021 15:52:09] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:52:11] "GET / HTTP/1.1" 200 3115
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 15:52:35] "GET / HTTP/1.1" 200 3115
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 3125, in run
+    server.run(app)
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 2782, in run
+    srv.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+TypeError: 'int' object is not callable
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 15:53:57] "GET / HTTP/1.1" 200 3116
+192.168.178.121 - - [16/Jan/2021 15:53:59] "GET / HTTP/1.1" 200 3116
+192.168.178.121 - - [16/Jan/2021 15:53:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:54:05] "GET / HTTP/1.1" 200 3115
+192.168.178.121 - - [16/Jan/2021 15:54:06] "GET / HTTP/1.1" 200 3115
+192.168.178.121 - - [16/Jan/2021 15:54:07] "GET / HTTP/1.1" 200 3115
+192.168.178.121 - - [16/Jan/2021 15:54:12] "GET / HTTP/1.1" 200 3115
+192.168.178.121 - - [16/Jan/2021 15:54:13] "GET / HTTP/1.1" 200 3115
+192.168.178.121 - - [16/Jan/2021 15:54:16] "GET / HTTP/1.1" 200 3116
+192.168.178.121 - - [16/Jan/2021 15:54:57] "GET / HTTP/1.1" 200 3114
+192.168.178.121 - - [16/Jan/2021 15:55:28] "GET / HTTP/1.1" 200 3113
+192.168.178.121 - - [16/Jan/2021 15:55:30] "GET / HTTP/1.1" 200 3113
+192.168.178.121 - - [16/Jan/2021 15:57:42] "GET / HTTP/1.1" 200 3114
+192.168.178.121 - - [16/Jan/2021 15:57:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:57:42] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:57:42] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:57:42] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 15:58:59] "GET / HTTP/1.1" 200 3116
+192.168.178.121 - - [16/Jan/2021 16:00:19] "GET / HTTP/1.1" 200 3114
+192.168.178.121 - - [16/Jan/2021 16:00:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 16:01:40] "GET / HTTP/1.1" 200 3254
+192.168.178.121 - - [16/Jan/2021 16:01:56] "GET / HTTP/1.1" 200 3248
+192.168.178.121 - - [16/Jan/2021 16:02:14] "GET / HTTP/1.1" 200 3259
+192.168.178.121 - - [16/Jan/2021 16:02:24] "GET / HTTP/1.1" 200 3258
+192.168.178.121 - - [16/Jan/2021 16:02:25] "GET / HTTP/1.1" 200 3258
+192.168.178.121 - - [16/Jan/2021 16:05:58] "GET / HTTP/1.1" 200 3390
+192.168.178.121 - - [16/Jan/2021 16:05:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 16:08:05] "GET / HTTP/1.1" 200 3578
+192.168.178.121 - - [16/Jan/2021 16:08:27] "GET / HTTP/1.1" 200 3621
+192.168.178.121 - - [16/Jan/2021 16:08:38] "GET / HTTP/1.1" 200 3621
+192.168.178.121 - - [16/Jan/2021 16:08:44] "GET / HTTP/1.1" 200 3621
+192.168.178.121 - - [16/Jan/2021 16:11:25] "GET / HTTP/1.1" 200 3615
+192.168.178.121 - - [16/Jan/2021 16:11:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 16:11:46] "GET / HTTP/1.1" 200 3632
+192.168.178.121 - - [16/Jan/2021 16:11:46] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 16:11:46] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 16:11:46] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 16:11:59] "GET / HTTP/1.1" 200 3625
+192.168.178.121 - - [16/Jan/2021 16:12:52] "GET / HTTP/1.1" 200 3623
+192.168.178.121 - - [16/Jan/2021 16:12:54] "GET / HTTP/1.1" 200 3623
+192.168.178.121 - - [16/Jan/2021 16:13:11] "GET / HTTP/1.1" 200 3625
+192.168.178.121 - - [16/Jan/2021 16:18:40] "GET / HTTP/1.1" 200 3623
+192.168.178.121 - - [16/Jan/2021 16:18:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 17:03:44] "GET / HTTP/1.1" 200 3625
+192.168.178.121 - - [16/Jan/2021 17:03:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 17:03:44] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 17:03:44] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 17:03:44] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [16/Jan/2021 17:05:09] "GET / HTTP/1.1" 200 3625
+192.168.178.121 - - [16/Jan/2021 17:08:01] "GET / HTTP/1.1" 200 3712
+192.168.178.121 - - [16/Jan/2021 17:08:17] "GET / HTTP/1.1" 200 3712
+192.168.178.121 - - [16/Jan/2021 17:08:28] "GET / HTTP/1.1" 200 3716
+192.168.178.121 - - [16/Jan/2021 17:08:31] "GET / HTTP/1.1" 200 3716
+192.168.178.121 - - [16/Jan/2021 17:09:19] "GET / HTTP/1.1" 200 3739
+192.168.178.121 - - [16/Jan/2021 17:09:39] "GET / HTTP/1.1" 200 3747
+192.168.178.121 - - [16/Jan/2021 17:09:46] "GET / HTTP/1.1" 200 3749
+192.168.178.121 - - [16/Jan/2021 17:09:58] "GET / HTTP/1.1" 200 3749
+192.168.178.121 - - [16/Jan/2021 17:10:02] "GET / HTTP/1.1" 200 3747
+192.168.178.121 - - [16/Jan/2021 17:10:08] "GET / HTTP/1.1" 200 3749
+192.168.178.121 - - [16/Jan/2021 17:10:13] "GET / HTTP/1.1" 200 3742
+192.168.178.121 - - [16/Jan/2021 17:10:15] "GET / HTTP/1.1" 200 3742
+192.168.178.121 - - [16/Jan/2021 17:11:32] "GET / HTTP/1.1" 200 3742
+192.168.178.121 - - [16/Jan/2021 17:11:35] "GET / HTTP/1.1" 200 3742
+192.168.178.121 - - [16/Jan/2021 17:11:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [16/Jan/2021 17:11:35] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 17:11:35] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 17:11:35] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [16/Jan/2021 17:11:38] "GET / HTTP/1.1" 200 3742
+192.168.178.121 - - [16/Jan/2021 17:12:39] "GET / HTTP/1.1" 200 4432
+192.168.178.121 - - [16/Jan/2021 17:13:42] "GET / HTTP/1.1" 200 4492
+192.168.178.121 - - [16/Jan/2021 17:13:46] "GET / HTTP/1.1" 200 4492
+192.168.178.121 - - [16/Jan/2021 17:13:52] "GET / HTTP/1.1" 200 4492
+192.168.178.121 - - [16/Jan/2021 17:13:53] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [16/Jan/2021 17:13:53] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2022
+192.168.178.121 - - [16/Jan/2021 17:13:53] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [16/Jan/2021 17:13:53] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [16/Jan/2021 17:13:54] "GET / HTTP/1.1" 200 4492
+192.168.178.121 - - [16/Jan/2021 17:14:00] "GET / HTTP/1.1" 200 4492
+192.168.178.121 - - [16/Jan/2021 17:14:16] "GET / HTTP/1.1" 200 4490
+192.168.178.121 - - [16/Jan/2021 17:14:19] "GET / HTTP/1.1" 200 4490
+192.168.178.121 - - [16/Jan/2021 17:15:20] "GET / HTTP/1.1" 200 4499
+192.168.178.121 - - [16/Jan/2021 17:17:34] "GET / HTTP/1.1" 200 4559
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 3125, in run
+    server.run(app)
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 2782, in run
+    srv.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+TypeError: 'int' object is not callable
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [16/Jan/2021 17:19:17] "GET / HTTP/1.1" 200 4557
+192.168.178.121 - - [16/Jan/2021 17:19:25] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [16/Jan/2021 17:20:36] "GET / HTTP/1.1" 200 4649
+192.168.178.121 - - [16/Jan/2021 17:20:37] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [16/Jan/2021 17:21:41] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [16/Jan/2021 17:21:42] "GET /statuc/js/bootstrap.min.js HTTP/1.1" 404 774
+192.168.178.121 - - [16/Jan/2021 17:21:42] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [16/Jan/2021 17:22:13] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [16/Jan/2021 17:22:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [16/Jan/2021 17:22:13] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [16/Jan/2021 17:22:13] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 01:01:41] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [17/Jan/2021 01:01:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 01:01:44] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 01:01:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 01:01:44] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 01:01:44] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 01:03:28] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [17/Jan/2021 01:03:39] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [17/Jan/2021 01:04:02] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [17/Jan/2021 10:07:21] "GET / HTTP/1.1" 200 4646
+192.168.178.121 - - [17/Jan/2021 10:07:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 10:07:22] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 10:07:22] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 10:07:22] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 10:07:22] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 10:10:09] "GET / HTTP/1.1" 200 4559
+192.168.178.121 - - [17/Jan/2021 10:11:08] "GET / HTTP/1.1" 200 4568
+192.168.178.121 - - [17/Jan/2021 10:12:41] "GET / HTTP/1.1" 200 4546
+192.168.178.121 - - [17/Jan/2021 10:12:45] "GET / HTTP/1.1" 200 4548
+192.168.178.121 - - [17/Jan/2021 10:13:03] "GET / HTTP/1.1" 200 4528
+192.168.178.121 - - [17/Jan/2021 10:13:04] "GET / HTTP/1.1" 200 4528
+192.168.178.121 - - [17/Jan/2021 10:16:19] "GET / HTTP/1.1" 200 4528
+192.168.178.121 - - [17/Jan/2021 10:17:01] "GET / HTTP/1.1" 200 4572
+192.168.178.121 - - [17/Jan/2021 10:17:45] "GET / HTTP/1.1" 200 4592
+192.168.178.121 - - [17/Jan/2021 10:19:01] "GET / HTTP/1.1" 200 4642
+192.168.178.121 - - [17/Jan/2021 10:19:32] "GET / HTTP/1.1" 200 4627
+192.168.178.121 - - [17/Jan/2021 10:21:42] "GET / HTTP/1.1" 200 4625
+192.168.178.121 - - [17/Jan/2021 10:23:14] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:23:18] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:23:19] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:23:20] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:23:21] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:23:26] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:24:38] "GET / HTTP/1.1" 200 5518
+192.168.178.121 - - [17/Jan/2021 10:25:24] "GET / HTTP/1.1" 200 5520
+192.168.178.121 - - [17/Jan/2021 10:26:55] "GET / HTTP/1.1" 200 5468
+192.168.178.121 - - [17/Jan/2021 10:26:57] "GET / HTTP/1.1" 200 5468
+192.168.178.121 - - [17/Jan/2021 10:26:58] "GET / HTTP/1.1" 200 5468
+192.168.178.121 - - [17/Jan/2021 10:27:02] "GET / HTTP/1.1" 200 5468
+192.168.178.121 - - [17/Jan/2021 10:28:52] "GET / HTTP/1.1" 200 5502
+192.168.178.121 - - [17/Jan/2021 10:29:08] "GET / HTTP/1.1" 200 5458
+192.168.178.121 - - [17/Jan/2021 10:32:31] "GET / HTTP/1.1" 200 6349
+192.168.178.121 - - [17/Jan/2021 10:39:58] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 10:39:58] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 10:42:25] "GET / HTTP/1.1" 200 6369
+192.168.178.121 - - [17/Jan/2021 11:01:03] "GET / HTTP/1.1" 200 6367
+192.168.178.121 - - [17/Jan/2021 11:01:03] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:01:03] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:02:24] "GET / HTTP/1.1" 200 6377
+192.168.178.121 - - [17/Jan/2021 11:02:46] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:03:03] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:04:36] "GET / HTTP/1.1" 200 6377
+192.168.178.121 - - [17/Jan/2021 11:05:21] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:05:33] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:05:33] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:06:31] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:06:31] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:06:31] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:06:32] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:06:32] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:06:32] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:06:58] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:06:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:06:58] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2127
+192.168.178.121 - - [17/Jan/2021 11:06:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:06:58] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:06:58] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:06:59] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:06:59] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:07:41] "GET / HTTP/1.1" 200 6377
+192.168.178.121 - - [17/Jan/2021 11:07:41] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2192
+192.168.178.121 - - [17/Jan/2021 11:07:44] "GET / HTTP/1.1" 200 6377
+192.168.178.121 - - [17/Jan/2021 11:07:45] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:07:45] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2192
+192.168.178.121 - - [17/Jan/2021 11:07:45] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:07:45] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:07:45] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:07:54] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:07:54] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:08:13] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:08:13] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2193
+192.168.178.121 - - [17/Jan/2021 11:08:13] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:08:13] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2193
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:08:15] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:08:49] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:08:49] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2226
+192.168.178.121 - - [17/Jan/2021 11:08:49] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:08:50] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:09:25] "GET / HTTP/1.1" 200 6377
+192.168.178.121 - - [17/Jan/2021 11:09:25] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2228
+192.168.178.121 - - [17/Jan/2021 11:09:25] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:09:25] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:09:56] "GET / HTTP/1.1" 200 6377
+192.168.178.121 - - [17/Jan/2021 11:09:57] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2233
+192.168.178.121 - - [17/Jan/2021 11:09:57] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:09:57] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:10:22] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:10:22] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2233
+192.168.178.121 - - [17/Jan/2021 11:10:22] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:10:23] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:10:23] "GET / HTTP/1.1" 200 6379
+192.168.178.121 - - [17/Jan/2021 11:10:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:10:24] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2233
+192.168.178.121 - - [17/Jan/2021 11:10:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:10:24] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:10:24] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:10:24] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:10:29] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:10:49] "GET / HTTP/1.1" 200 6397
+192.168.178.121 - - [17/Jan/2021 11:10:49] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2230
+192.168.178.121 - - [17/Jan/2021 11:10:49] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:10:49] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:11:13] "GET / HTTP/1.1" 200 6395
+192.168.178.121 - - [17/Jan/2021 11:11:13] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2232
+192.168.178.121 - - [17/Jan/2021 11:11:13] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:11:14] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:11:14] "GET / HTTP/1.1" 200 6395
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2232
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:11:15] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:12:21] "GET / HTTP/1.1" 200 6438
+192.168.178.121 - - [17/Jan/2021 11:12:21] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:12:21] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:12:21] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:12:29] "GET / HTTP/1.1" 200 6415
+192.168.178.121 - - [17/Jan/2021 11:12:30] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:12:30] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:12:30] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:13:46] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:13:46] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:14:16] "GET / HTTP/1.1" 200 6411
+192.168.178.121 - - [17/Jan/2021 11:14:16] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:14:16] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:14:16] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:14:45] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:14:45] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:15:15] "GET / HTTP/1.1" 200 6409
+192.168.178.121 - - [17/Jan/2021 11:15:15] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 11:15:15] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 11:15:15] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 11:17:14] "GET / HTTP/1.1" 200 6409
+192.168.178.121 - - [17/Jan/2021 11:17:15] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:17:40] "GET / HTTP/1.1" 200 6409
+192.168.178.121 - - [17/Jan/2021 11:17:40] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:18:06] "GET / HTTP/1.1" 200 6400
+192.168.178.121 - - [17/Jan/2021 11:18:06] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:18:13] "GET / HTTP/1.1" 200 6398
+192.168.178.121 - - [17/Jan/2021 11:20:25] "GET / HTTP/1.1" 200 6562
+192.168.178.121 - - [17/Jan/2021 11:20:25] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:21:49] "GET / HTTP/1.1" 200 6981
+192.168.178.121 - - [17/Jan/2021 11:21:50] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:23:54] "GET / HTTP/1.1" 200 7087
+192.168.178.121 - - [17/Jan/2021 11:23:55] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:25:37] "GET / HTTP/1.1" 200 7154
+192.168.178.121 - - [17/Jan/2021 11:25:37] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:26:46] "GET / HTTP/1.1" 200 7165
+192.168.178.121 - - [17/Jan/2021 11:26:46] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:26:49] "GET /? HTTP/1.1" 200 7165
+192.168.178.121 - - [17/Jan/2021 11:30:25] "GET /? HTTP/1.1" 200 7205
+192.168.178.121 - - [17/Jan/2021 11:30:25] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:30:52] "GET /? HTTP/1.1" 200 7205
+192.168.178.121 - - [17/Jan/2021 11:34:55] "GET /? HTTP/1.1" 200 7203
+192.168.178.121 - - [17/Jan/2021 11:34:55] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:34:58] "GET /? HTTP/1.1" 200 7203
+192.168.178.121 - - [17/Jan/2021 11:34:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:34:58] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 11:34:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:34:58] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:34:58] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:35:28] "GET /? HTTP/1.1" 200 7071
+192.168.178.121 - - [17/Jan/2021 11:35:30] "GET /? HTTP/1.1" 200 7071
+192.168.178.121 - - [17/Jan/2021 11:35:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:35:30] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 11:35:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:35:30] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:35:30] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /? HTTP/1.1" 200 7071
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /? HTTP/1.1" 200 7071
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:35:32] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:35:49] "GET / HTTP/1.1" 200 7073
+192.168.178.121 - - [17/Jan/2021 11:35:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 11:35:49] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 11:35:56] "GET /? HTTP/1.1" 200 7170
+192.168.178.121 - - [17/Jan/2021 11:36:41] "GET /? HTTP/1.1" 200 7103
+192.168.178.121 - - [17/Jan/2021 11:36:53] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 11:36:53] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 11:36:53] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 11:36:53] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 11:36:54] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [17/Jan/2021 11:37:26] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 11:37:26] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [17/Jan/2021 11:38:07] "GET / HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 11:38:50] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [17/Jan/2021 11:39:23] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [17/Jan/2021 11:40:53] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 11:40:56] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 11:40:56] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [17/Jan/2021 12:43:41] "GET /? HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 12:43:41] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 12:43:46] "GET /? HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 12:43:47] "GET /? HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 12:43:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 12:43:48] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 12:43:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 12:43:48] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 12:43:48] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 12:44:37] "GET / HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 12:44:37] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 12:44:37] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [17/Jan/2021 12:47:46] "GET /? HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 12:47:46] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 13:03:15] "GET /? HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 13:03:16] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 13:03:20] "GET /? HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 13:03:20] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 13:03:20] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 13:03:20] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 13:03:20] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 13:03:20] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 13:06:57] "GET /static/LICENSE.txt HTTP/1.1" 200 1083
+192.168.178.121 - - [17/Jan/2021 13:06:58] "GET /favicon.ico HTTP/1.1" 404 744
+192.168.178.121 - - [17/Jan/2021 13:11:18] "GET / HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 13:11:18] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 13:12:30] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 13:12:30] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 13:12:30] "GET /static/favicon.png HTTP/1.1" 200 27815
+192.168.178.121 - - [17/Jan/2021 13:12:53] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 13:14:21] "GET / HTTP/1.1" 200 7099
+192.168.178.121 - - [17/Jan/2021 13:16:44] "GET / HTTP/1.1" 200 7101
+192.168.178.121 - - [17/Jan/2021 13:17:50] "GET / HTTP/1.1" 200 7387
+192.168.178.121 - - [17/Jan/2021 13:17:50] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2257
+192.168.178.121 - - [17/Jan/2021 13:19:59] "GET / HTTP/1.1" 200 7399
+192.168.178.121 - - [17/Jan/2021 13:20:41] "GET / HTTP/1.1" 200 7389
+192.168.178.121 - - [17/Jan/2021 13:20:45] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [17/Jan/2021 13:20:45] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [17/Jan/2021 13:22:19] "GET / HTTP/1.1" 200 7389
+192.168.178.121 - - [17/Jan/2021 13:22:45] "GET / HTTP/1.1" 200 7387
+192.168.178.121 - - [17/Jan/2021 13:22:46] "GET / HTTP/1.1" 200 7387
+192.168.178.121 - - [17/Jan/2021 13:22:47] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 13:22:47] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 13:22:47] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 13:22:47] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 13:22:47] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 13:54:56] "GET / HTTP/1.1" 200 7389
+192.168.178.121 - - [17/Jan/2021 13:54:56] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 14:06:08] "GET / HTTP/1.1" 200 7387
+192.168.178.121 - - [17/Jan/2021 14:06:08] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 14:06:08] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 14:06:24] "GET / HTTP/1.1" 200 7389
+192.168.178.121 - - [17/Jan/2021 16:02:21] "GET / HTTP/1.1" 200 7387
+192.168.178.121 - - [17/Jan/2021 16:02:22] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 16:02:22] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 16:02:22] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 16:02:22] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 16:02:22] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 16:23:59] "GET / HTTP/1.1" 200 7389
+192.168.178.121 - - [17/Jan/2021 16:23:59] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 16:39:45] "GET / HTTP/1.1" 200 7387
+192.168.178.121 - - [17/Jan/2021 16:55:15] "GET / HTTP/1.1" 200 8227
+192.168.178.121 - - [17/Jan/2021 16:55:16] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 16:55:22] "GET / HTTP/1.1" 200 8227
+192.168.178.121 - - [17/Jan/2021 16:55:50] "GET / HTTP/1.1" 200 8263
+192.168.178.121 - - [17/Jan/2021 16:55:54] "GET / HTTP/1.1" 200 8261
+192.168.178.121 - - [17/Jan/2021 16:56:37] "GET / HTTP/1.1" 200 8280
+192.168.178.121 - - [17/Jan/2021 16:56:42] "GET / HTTP/1.1" 200 8280
+192.168.178.121 - - [17/Jan/2021 16:57:44] "GET / HTTP/1.1" 200 8282
+192.168.178.121 - - [17/Jan/2021 16:57:51] "GET / HTTP/1.1" 200 8282
+192.168.178.121 - - [17/Jan/2021 16:58:39] "GET / HTTP/1.1" 200 8271
+192.168.178.121 - - [17/Jan/2021 16:58:43] "GET / HTTP/1.1" 200 8269
+192.168.178.121 - - [17/Jan/2021 17:01:07] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [17/Jan/2021 17:01:11] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [17/Jan/2021 17:01:28] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [17/Jan/2021 17:01:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 17:01:28] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 17:01:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 17:01:28] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 17:01:28] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 17:02:05] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [17/Jan/2021 20:56:24] "GET / HTTP/1.1" 200 8344
+192.168.178.121 - - [17/Jan/2021 20:56:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [17/Jan/2021 20:56:24] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [17/Jan/2021 20:56:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [17/Jan/2021 20:56:24] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [17/Jan/2021 20:56:24] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [17/Jan/2021 20:57:04] "GET / HTTP/1.1" 200 8344
+192.168.178.121 - - [18/Jan/2021 17:34:12] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [18/Jan/2021 17:34:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [18/Jan/2021 17:34:13] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [18/Jan/2021 17:34:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [18/Jan/2021 17:34:13] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [18/Jan/2021 17:34:13] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [18/Jan/2021 17:38:01] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [18/Jan/2021 17:39:33] "GET / HTTP/1.1" 200 8344
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 3125, in run
+    server.run(app)
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 2782, in run
+    srv.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+TypeError: 'int' object is not callable
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [18/Jan/2021 17:57:40] "GET / HTTP/1.1" 200 8344
+192.168.178.121 - - [18/Jan/2021 17:57:46] "GET / HTTP/1.1" 200 8344
+192.168.178.121 - - [18/Jan/2021 17:58:33] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [18/Jan/2021 17:58:45] "GET / HTTP/1.1" 200 8346
+192.168.178.121 - - [18/Jan/2021 18:10:29] "GET / HTTP/1.1" 200 8363
+192.168.178.121 - - [18/Jan/2021 18:10:32] "GET / HTTP/1.1" 200 8363
+192.168.178.121 - - [18/Jan/2021 18:11:10] "GET / HTTP/1.1" 200 8397
+192.168.178.121 - - [18/Jan/2021 18:11:17] "GET / HTTP/1.1" 200 8397
+192.168.178.121 - - [18/Jan/2021 18:11:19] "GET / HTTP/1.1" 200 8397
+192.168.178.121 - - [18/Jan/2021 18:11:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [18/Jan/2021 18:11:19] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2305
+192.168.178.121 - - [18/Jan/2021 18:11:19] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [18/Jan/2021 18:11:19] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [18/Jan/2021 18:11:19] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [18/Jan/2021 18:12:21] "GET / HTTP/1.1" 200 8417
+192.168.178.121 - - [18/Jan/2021 18:12:56] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 18:13:03] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 18:14:46] "GET / HTTP/1.1" 200 8410
+192.168.178.121 - - [18/Jan/2021 18:15:47] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [18/Jan/2021 18:15:47] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [18/Jan/2021 18:16:55] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 18:16:55] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [18/Jan/2021 18:16:55] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2353
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [18/Jan/2021 18:17:01] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [18/Jan/2021 18:17:21] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [18/Jan/2021 18:17:21] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [18/Jan/2021 18:17:38] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 18:17:38] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2397
+192.168.178.121 - - [18/Jan/2021 18:17:38] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [18/Jan/2021 18:17:38] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [18/Jan/2021 18:17:40] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 153111
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2397
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 62411
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/img/logo.png HTTP/1.1" 200 41614
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/img/long_logo.png HTTP/1.1" 200 53686
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 750
+192.168.178.121 - - [18/Jan/2021 18:17:41] "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 748
+192.168.178.121 - - [18/Jan/2021 22:29:29] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 22:29:29] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 200 2353
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 3125, in run
+    server.run(app)
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 2782, in run
+    srv.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+TypeError: 'int' object is not callable
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+192.168.178.121 - - [18/Jan/2021 23:19:01] "GET / HTTP/1.1" 200 8412
+192.168.178.121 - - [18/Jan/2021 23:19:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [18/Jan/2021 23:19:01] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [18/Jan/2021 23:19:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+192.168.178.121 - - [19/Jan/2021 10:43:23] "GET / HTTP/1.1" 200 8410
+192.168.178.121 - - [19/Jan/2021 10:43:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+192.168.178.121 - - [19/Jan/2021 10:43:23] "GET /static/css/jumbotron-narrow.css HTTP/1.1" 304 0
+192.168.178.121 - - [19/Jan/2021 10:43:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+192.168.178.121 - - [19/Jan/2021 10:43:23] "GET /static/img/logo.png HTTP/1.1" 304 0
+192.168.178.121 - - [19/Jan/2021 10:43:23] "GET /static/img/long_logo.png HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 3125, in run
+    server.run(app)
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 2782, in run
+    srv.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+TypeError: 'int' object is not callable
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 3125, in run
+    server.run(app)
+  File "/usr/lib/python2.7/dist-packages/bottle.py", line 2782, in run
+    srv.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 231, in serve_forever
+    poll_interval)
+  File "/usr/lib/python2.7/SocketServer.py", line 150, in _eintr_retry
+    return func(*args)
+TypeError: 'int' object is not callable
+Bottle v0.12.15 server starting up (using WSGIRefServer())...
+Listening on http://0.0.0.0:8080/
+Hit Ctrl-C to quit.
+

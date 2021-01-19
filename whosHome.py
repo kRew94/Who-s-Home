@@ -45,4 +45,4 @@ def index():
 
 # Host the Webserver on the local private IP the Raspberry got
 # (e.g. 192.168.0.100:8080)
-run(host='0.0.0.0', port=8080, reloader='True')
+run(host='0.0.0.0', port=8080, reloader='True', debug=True)

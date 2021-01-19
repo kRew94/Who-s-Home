@@ -12,6 +12,9 @@ name = input("Name: ")
 ip = input("IP-address: ")
 mac = input("MAC-address: ")
 
+if mac == "":
+    mac = "N/A"
+
 conn = sqlite3.connect('Client.db')
 cur = conn.cursor()
 
